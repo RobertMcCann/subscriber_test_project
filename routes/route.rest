@@ -5,7 +5,7 @@ GET http://localhost:3000/subscribers
 ###
 
 
-GET http://localhost:3000/subscribers/16
+GET http://localhost:3000/subscribers/60808b55b80109f6b120f13c
 
 ###
 
@@ -17,3 +17,10 @@ Content-Type: application/json
     "name": "Amazing Cake",
     "subscribedToChannel": "ME and Myself"
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/60808b55b80109f6b120f13c
+
+
+/// Had issues with POST, I used Postman and curl to POST/PATCH
